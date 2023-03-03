@@ -7,6 +7,13 @@ import { Component } from '@angular/core';
 })
 export class Tab3Page {
 
+    profile: any = {
+      name: 'Tamaes',
+      email: 'tamaes@outlook.co.id',
+      address: 'Caruban',
+      desc: 'No Comment',
+    }
+
   constructor() {}
 
 }
