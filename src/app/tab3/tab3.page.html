@@ -1,0 +1,42 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title>
+      Profile
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  
+  <div class="profile">
+    <div class="avatar">
+      <ion-avatar class="ion-activatable">
+        <img src="assets/avatar/tamaes.jpg" />
+        <ion-ripple-effect type="bounded"></ion-ripple-effect>
+      </ion-avatar>
+    </div>
+
+    <ion-list>
+        <ion-item class="ion-activatable">
+          <ion-icon slot="end" name="happy-outline"></ion-icon>
+          <ion-label>
+            <h2>{{ profile.jeneng }}</h2>
+            <p>{{ profile.hape }}</p>
+            <p>{{ profile.mail }}</p>
+            <p>{{ profile.negoro }}</p>
+            <ion-progress-bar type="indeterminate"></ion-progress-bar>
+          </ion-label>
+          <ion-ripple-effect type="bounded"></ion-ripple-effect>
+        </ion-item>
+    </ion-list>
+
+
+    <ion-text>
+      <p>
+        {{ profile.aranane }}
+      </p>
+    </ion-text>
+
+  </div>
+
+</ion-content>
