@@ -1,0 +1,50 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title>
+      Kontak
+    </ion-title>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon slot="start" name="search"></ion-icon>
+        <b>Cari</b>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-list>
+
+    <ion-list>
+      <ion-item-sliding *ngFor="let item of db.contactFav()">
+
+        <ion-item>
+          <ion-icon color="primary" slot="start" name="person-circle-outline"></ion-icon>
+          <ion-label class="ion-activatable">
+            <h2>{{ item.name }}</h2>
+            <p>{{ item.telp }}</p>
+            <p>{{ item.email }}</p>
+            <ion-ripple-effect type="bounded"></ion-ripple-effect>
+          </ion-label>
+        </ion-item>
+
+        <ion-item-options side="end">
+          <ion-item-option (click)="favorite(item)" color="warning">
+          {{ item.isFav ? 'Unfavorite' : 'Favorite' }}
+          </ion-item-option>
+          <ion-item-option (click)="delete(item)" color="danger">Hapus</ion-item-option>
+        </ion-item-options>
+
+      </ion-item-sliding>
+    </ion-list>
+
+  </ion-list>
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button (click)="tambah()" color="medium">
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+</ion-content>
