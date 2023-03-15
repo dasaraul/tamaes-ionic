@@ -3,19 +3,14 @@
     <ion-title>
       Favorites
     </ion-title>
-    <ion-buttons slot="end">
-      <ion-button>
-        <ion-icon slot="start" name="search"></ion-icon>
-        <b>Cari</b>
-      </ion-button>
-    </ion-buttons>
   </ion-toolbar>
 </ion-header>
+
 
 <ion-content [fullscreen]="true">
 
   <ion-list>
-
+<ion-searchbar></ion-searchbar>
     <ion-list>
       <ion-item-sliding *ngFor="let item of db.contactFav()">
 
@@ -25,15 +20,16 @@
             <h2>{{ item.name }}</h2>
             <p>{{ item.telp }}</p>
             <p>{{ item.email }}</p>
+            <p>{{ item.address }}</p>
             <ion-ripple-effect type="bounded"></ion-ripple-effect>
           </ion-label>
         </ion-item>
 
         <ion-item-options side="end">
-          <ion-item-option (click)="favorite(item)" color="warning">
+          <ion-item-option (click)="favorite(item)" color="primary">
           {{ item.isFav ? 'Unfavorite' : 'Favorite' }}
           </ion-item-option>
-          <ion-item-option (click)="delete(item)" color="danger">Hapus</ion-item-option>
+          <ion-item-option (click)="delete(item)" color="medium">Hapus</ion-item-option>
         </ion-item-options>
 
       </ion-item-sliding>
@@ -42,7 +38,7 @@
   </ion-list>
 
   <ion-fab vertical="bottom" horizontal="end" slot="fixed">
-    <ion-fab-button (click)="tambah()" color="medium">
+    <ion-fab-button (click)="tambah()" color="light">
       <ion-icon name="add"></ion-icon>
     </ion-fab-button>
   </ion-fab>

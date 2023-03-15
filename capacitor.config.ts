@@ -1,7 +1,7 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
+  appId: 'tamaes.ionic.kontak',
   appName: 'kontak',
   webDir: 'www',
   bundledWebRuntime: false

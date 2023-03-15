@@ -19,7 +19,6 @@
             <h2>{{ item.name }}</h2>
             <p>{{ item.telp }}</p>
             <p>{{ item.email }}</p>
-            <p>{{ item.address }}</p>
             <ion-ripple-effect type="bounded"></ion-ripple-effect>
           </ion-label>
         </ion-item>
