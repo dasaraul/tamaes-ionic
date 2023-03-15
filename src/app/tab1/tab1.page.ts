@@ -19,16 +19,16 @@ export class Tab1Page {
     this.router.navigateByUrl('add')
   }
 
+  edit(item: Icontact) {
+    this.router.navigateByUrl('add/' + item.id)
+  }
+  
   favorite(item: Icontact) {
     item.isFav = !item.isFav;
   }
 
-  edit(item: Icontact) {
-    this.router.navigateByUrl('add/' + item.id)
-  }
-
   delete(item: Icontact) {
-    this.db.delete(item.isFav)
+    this.db.delete(!item.isFav)
   }
 
 }
