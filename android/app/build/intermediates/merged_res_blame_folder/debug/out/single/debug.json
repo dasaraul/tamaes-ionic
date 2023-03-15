@@ -16,12 +16,24 @@
         "source": "io.ionic.starter.app-main-22:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
+        "merged": "io.ionic.starter.app-merged_res-20:/mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "io.ionic.starter.app-main-22:/mipmap-mdpi/ic_launcher_background.png"
+    },
+    {
         "merged": "io.ionic.starter.app-merged_res-20:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "io.ionic.starter.app-pngs-15:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
+        "merged": "io.ionic.starter.app-merged_res-20:/mipmap-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "io.ionic.starter.app-main-22:/mipmap-xxxhdpi/ic_launcher_background.png"
+    },
+    {
         "merged": "io.ionic.starter.app-merged_res-20:/mipmap-mdpi_ic_launcher_foreground.png.flat",
         "source": "io.ionic.starter.app-main-22:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "io.ionic.starter.app-merged_res-20:/mipmap-xxxhdpi_ic_launcher_old.png.flat",
+        "source": "io.ionic.starter.app-main-22:/mipmap-xxxhdpi/ic_launcher_old.png"
     },
     {
         "merged": "io.ionic.starter.app-merged_res-20:/drawable-port-xxhdpi_splash.png.flat",
@@ -56,6 +68,10 @@
         "source": "io.ionic.starter.app-main-22:/drawable-port-mdpi/splash.png"
     },
     {
+        "merged": "io.ionic.starter.app-merged_res-20:/mipmap-hdpi_ic_launcher_background.png.flat",
+        "source": "io.ionic.starter.app-main-22:/mipmap-hdpi/ic_launcher_background.png"
+    },
+    {
         "merged": "io.ionic.starter.app-merged_res-20:/xml_config.xml.flat",
         "source": "io.ionic.starter.app-main-22:/xml/config.xml"
     },
@@ -68,6 +84,10 @@
         "source": "io.ionic.starter.app-main-22:/mipmap-hdpi/ic_launcher.png"
     },
     {
+        "merged": "io.ionic.starter.app-merged_res-20:/mipmap-anydpi-v26_ic_launcher_old.xml.flat",
+        "source": "io.ionic.starter.app-main-22:/mipmap-anydpi-v26/ic_launcher_old.xml"
+    },
+    {
         "merged": "io.ionic.starter.app-merged_res-20:/drawable-land-hdpi_splash.png.flat",
         "source": "io.ionic.starter.app-main-22:/drawable-land-hdpi/splash.png"
     },
@@ -76,12 +96,28 @@
         "source": "io.ionic.starter.app-main-22:/mipmap-xxxhdpi/ic_launcher_foreground.png"
     },
     {
+        "merged": "io.ionic.starter.app-merged_res-20:/mipmap-mdpi_ic_launcher_old.png.flat",
+        "source": "io.ionic.starter.app-main-22:/mipmap-mdpi/ic_launcher_old.png"
+    },
+    {
+        "merged": "io.ionic.starter.app-merged_res-20:/mipmap-xxhdpi_ic_launcher_old.png.flat",
+        "source": "io.ionic.starter.app-main-22:/mipmap-xxhdpi/ic_launcher_old.png"
+    },
+    {
         "merged": "io.ionic.starter.app-merged_res-20:/mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "io.ionic.starter.app-main-22:/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
+        "merged": "io.ionic.starter.app-merged_res-20:/mipmap-xhdpi_ic_launcher_background.png.flat",
+        "source": "io.ionic.starter.app-main-22:/mipmap-xhdpi/ic_launcher_background.png"
+    },
+    {
         "merged": "io.ionic.starter.app-merged_res-20:/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "io.ionic.starter.app-main-22:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "io.ionic.starter.app-merged_res-20:/mipmap-hdpi_ic_launcher_old.png.flat",
+        "source": "io.ionic.starter.app-main-22:/mipmap-hdpi/ic_launcher_old.png"
     },
     {
         "merged": "io.ionic.starter.app-merged_res-20:/mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -124,8 +160,16 @@
         "source": "io.ionic.starter.app-main-22:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
+        "merged": "io.ionic.starter.app-merged_res-20:/mipmap-xxhdpi_ic_launcher_background.png.flat",
+        "source": "io.ionic.starter.app-main-22:/mipmap-xxhdpi/ic_launcher_background.png"
+    },
+    {
         "merged": "io.ionic.starter.app-merged_res-20:/mipmap-mdpi_ic_launcher.png.flat",
         "source": "io.ionic.starter.app-main-22:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "io.ionic.starter.app-merged_res-20:/mipmap-xhdpi_ic_launcher_old.png.flat",
+        "source": "io.ionic.starter.app-main-22:/mipmap-xhdpi/ic_launcher_old.png"
     },
     {
         "merged": "io.ionic.starter.app-merged_res-20:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",

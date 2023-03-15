@@ -3,24 +3,24 @@
 3    package="io.ionic.starter.test" >
 4
 5    <uses-sdk
-5-->D:\tamaes\tamaes-ionic\android\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest8996106023095835562.xml:5:5-74
+5-->D:\tamaes\tamaes-ionic\android\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17076173176114138952.xml:5:5-74
 6        android:minSdkVersion="22"
-6-->D:\tamaes\tamaes-ionic\android\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest8996106023095835562.xml:5:15-41
+6-->D:\tamaes\tamaes-ionic\android\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17076173176114138952.xml:5:15-41
 7        android:targetSdkVersion="32" />
-7-->D:\tamaes\tamaes-ionic\android\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest8996106023095835562.xml:5:42-71
+7-->D:\tamaes\tamaes-ionic\android\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17076173176114138952.xml:5:42-71
 8
 9    <instrumentation
-9-->D:\tamaes\tamaes-ionic\android\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest8996106023095835562.xml:11:5-15:66
+9-->D:\tamaes\tamaes-ionic\android\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17076173176114138952.xml:11:5-15:66
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->D:\tamaes\tamaes-ionic\android\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest8996106023095835562.xml:11:22-76
+10-->D:\tamaes\tamaes-ionic\android\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17076173176114138952.xml:11:22-76
 11        android:functionalTest="false"
-11-->D:\tamaes\tamaes-ionic\android\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest8996106023095835562.xml:14:22-52
+11-->D:\tamaes\tamaes-ionic\android\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17076173176114138952.xml:14:22-52
 12        android:handleProfiling="false"
-12-->D:\tamaes\tamaes-ionic\android\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest8996106023095835562.xml:13:22-53
+12-->D:\tamaes\tamaes-ionic\android\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17076173176114138952.xml:13:22-53
 13        android:label="Tests for io.ionic.starter"
-13-->D:\tamaes\tamaes-ionic\android\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest8996106023095835562.xml:15:22-64
+13-->D:\tamaes\tamaes-ionic\android\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17076173176114138952.xml:15:22-64
 14        android:targetPackage="io.ionic.starter" />
-14-->D:\tamaes\tamaes-ionic\android\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest8996106023095835562.xml:12:22-62
+14-->D:\tamaes\tamaes-ionic\android\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17076173176114138952.xml:12:22-62
 15
 16    <uses-permission android:name="android.permission.REORDER_TASKS" />
 16-->[androidx.test:core:1.4.0] C:\Users\Administrator\.gradle\caches\transforms-3\602fdfd061610285b7f45dcd1ba59a4b\transformed\jetified-core-1.4.0\AndroidManifest.xml:24:5-72
@@ -40,10 +40,10 @@
 22    </queries>
 23
 24    <application android:debuggable="true" >
-24-->D:\tamaes\tamaes-ionic\android\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest8996106023095835562.xml:7:5-9:19
+24-->D:\tamaes\tamaes-ionic\android\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17076173176114138952.xml:7:5-9:19
 25        <uses-library android:name="android.test.runner" />
-25-->D:\tamaes\tamaes-ionic\android\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest8996106023095835562.xml:8:9-60
-25-->D:\tamaes\tamaes-ionic\android\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest8996106023095835562.xml:8:23-57
+25-->D:\tamaes\tamaes-ionic\android\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17076173176114138952.xml:8:9-60
+25-->D:\tamaes\tamaes-ionic\android\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17076173176114138952.xml:8:23-57
 26
 27        <activity
 27-->[androidx.test:core:1.4.0] C:\Users\Administrator\.gradle\caches\transforms-3\602fdfd061610285b7f45dcd1ba59a4b\transformed\jetified-core-1.4.0\AndroidManifest.xml:27:9-34:20
