@@ -1,0 +1,54 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="tabs/tab1"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Tambah Kontak</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Tambah Kontak Baru</ion-card-subtitle>
+      <ion-card-title>Masukan Data Kontak</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+
+      <ion-item>
+        <ion-label position="floating">Jeneng</ion-label>
+        <ion-input [(ngModel)]="contact.name" type="text"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Telpon</ion-label>
+        <ion-input [(ngModel)]="contact.telp" type="text"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Email</ion-label>
+        <ion-input [(ngModel)]="contact.email" type="text"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Omah</ion-label>
+        <ion-input [(ngModel)]="contact.address" rows="5"></ion-input>
+      </ion-item>
+
+
+      
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-button color="danger" (click)="save()" expand="block" fill="solid" shape="round">
+     <ion-icon slot="start" name="person-circle-outline"></ion-icon>
+     Simpan
+  </ion-button>
+  </ion-toolbar>
+</ion-footer>
