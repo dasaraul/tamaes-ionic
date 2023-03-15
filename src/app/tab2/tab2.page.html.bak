@@ -1,25 +1,25 @@
 <ion-header [translucent]="true">
   <ion-toolbar color="primary">
     <ion-title>
-      Kontak
+      Favorites
     </ion-title>
   </ion-toolbar>
 </ion-header>
+
 
 <ion-content [fullscreen]="true">
 
   <ion-list>
 <ion-searchbar></ion-searchbar>
     <ion-list>
-      <ion-item-sliding *ngFor="let item of db.contacts">
+      <ion-item-sliding *ngFor="let item of db.contactFav()">
 
         <ion-item>
           <ion-icon color="primary" slot="start" name="person-circle-outline"></ion-icon>
-          <ion-label (click)="edit(item)" class="ion-activatable">
+          <ion-label class="ion-activatable">
             <h2>{{ item.name }}</h2>
             <p>{{ item.telp }}</p>
             <p>{{ item.email }}</p>
-            <p>{{ item.address }}</p>
             <ion-ripple-effect type="bounded"></ion-ripple-effect>
           </ion-label>
         </ion-item>
