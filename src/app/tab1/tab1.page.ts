@@ -28,7 +28,7 @@ export class Tab1Page {
   }
 
   delete(item: Icontact) {
-    this.db.delete(!item.isFav)
+    this.db.delete(!item.id)
   }
 
 }
