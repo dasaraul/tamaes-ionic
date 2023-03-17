@@ -22,13 +22,13 @@ export class DbcontactService {
    }
 
    favorite(id: any) {
-    const data: any = this.contacts.findIndex(contact => contact.id = id)
-    this.contacts[data].isFav = !this.contacts[data].isFav
+    const index: any = this.contacts.findIndex(contact => contact.id = id)
+    this.contacts[index].isFav = !this.contacts[index].isFav
     this.store()
    }
 
    delete(id: any){
-    const index: any = this.contacts.findIndex(contact => contact.id = id)
+    const index: any = this.contacts.findIndex(contact => contact.id == id)
     this.contacts.splice(index, 1)
     this.store
    }

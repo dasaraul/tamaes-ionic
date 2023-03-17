@@ -15,12 +15,12 @@ export class Tab2Page {
     this.router.navigateByUrl('add');
   }
 
-  favorite(wibu: Icontact) {
-    // this.db.favorite(!item.id)
-    wibu.isFav = !wibu.isFav;
+  favorite(item: Icontact) {
+    // this.db.favorite(item.id)
+    item.isFav = !item.isFav;
   }
 
   delete(item: Icontact) {
-    this.db.delete(item.id)
+    this.db.delete(!item.id)
   }
 }
