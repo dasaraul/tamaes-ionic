@@ -34,13 +34,13 @@ export class DbcontactService {
    }
 
    store() {
-    const contactsString: string = JSON.stringify('this.contacts');
+    const contactsString: string = JSON.stringify(this.contacts);
     localStorage.setItem('contacts', contactsString)
    }
 
 
    get() {
-    const contactsObject: string | any = localStorage.getItem('this.contacts');
+    const contactsObject: string | any = localStorage.getItem('contacts');
 
     if (!contactsObject) {
       this.contacts = []
