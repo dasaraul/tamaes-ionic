@@ -20,8 +20,9 @@ export class Tab1Page {
   }
 
   favorite(item: Icontact) {
+     this.db.favorite(item.id)
+    //item.isFav = !item.isFav;
     // this.db.favorite(item.id)
-    item.isFav = !item.isFav;
   }
 
   edit(item: Icontact) {

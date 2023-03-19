@@ -22,8 +22,8 @@ export class DbcontactService {
    }
 
    favorite(id: any) {
-    const index: any = this.contacts.findIndex(contact => contact.id = id)
-    this.contacts[index].isFav = !this.contacts[index].isFav
+    const data: any = this.contacts.findIndex(contact => contact.id == id)
+    this.contacts[data].isFav = !this.contacts[data].isFav
     this.store()
    }
 

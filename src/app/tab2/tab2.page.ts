@@ -21,6 +21,6 @@ export class Tab2Page {
   }
 
   delete(item: Icontact) {
-    this.db.delete(!item.id)
+    this.db.delete(item.id)
   }
 }
